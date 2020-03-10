@@ -1,0 +1,45 @@
+.item {
+    text-decoration: none;
+    color: red;
+}
+
+.item.completed {
+    text-decoration: line-through;
+    color: green;
+}
+
+.body {
+    text-align: center;
+    margin: 5% 20% 0% 25%;
+    padding-bottom: 3%;
+    border: 3px solid deeppink;
+    width: 50%;
+}
+
+.clear-btn{
+    border: none;
+    background: pink;
+}
+
+.clear-btn:hover{
+    border: none;
+    background: black;
+    color: pink;
+}
+
+.add-btn{
+    border: none;
+    background: hotpink;
+    color: white;
+    margin-left: 1%;
+}
+
+.add-btn:hover{
+    border: none;
+    background: white;
+    color: hotpink;
+}
+
+.title{
+    color: mediumvioletred;
+}
